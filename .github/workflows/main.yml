@@ -12,11 +12,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-
-      - name: Checkout main and current PR branch if present
-        run: |
-          git fetch --no-tags --depth=1 origin main
-          git checkout ${{ github.event.pull_request.head.sha }}
+        with:
+          fetch-depth: 0
 
       - name: Use Node 14
         uses: actions/setup-node@v2
