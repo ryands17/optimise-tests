@@ -12,7 +12,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - run: |
+
+      - name: Checkout main and current PR branch if present
+        run: |
           git fetch --no-tags --depth=1 origin main
           git checkout ${{ github.event.pull_request.head.sha }}
 
