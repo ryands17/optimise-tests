@@ -33,3 +33,6 @@ jobs:
 
       - name: Run Tests
         run: yarn jest --changedSince=origin/main --coverage
+
+      - name: Build
+        run: yarn build
