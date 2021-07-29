@@ -32,7 +32,7 @@ jobs:
         run: yarn install --frozen-lockfile
 
       - name: Run Tests
-        run: yarn jest --changedSince=origin/main --coverage
+        run: ./run-tests.sh
 
       - name: Build
         run: yarn build
