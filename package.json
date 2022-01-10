@@ -11,14 +11,14 @@
   "author": "Ryan",
   "license": "ISC",
   "devDependencies": {
-    "@types/jest": "27.0.2",
+    "@types/jest": "27.4.0",
     "@types/node": "16.11.19",
     "@types/prettier": "2.4.2",
     "husky": "7.0.4",
-    "jest": "27.3.1",
+    "jest": "27.4.7",
     "lint-staged": "11.2.6",
     "prettier": "2.5.1",
-    "ts-jest": "27.0.7",
+    "ts-jest": "27.1.2",
     "typescript": "4.5.4",
     "typesync": "0.8.0"
   },
