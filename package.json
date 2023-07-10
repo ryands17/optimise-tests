@@ -20,7 +20,7 @@
     "prettier": "2.8.8",
     "ts-jest": "29.1.0",
     "typescript": "5.1.6",
-    "typesync": "0.11.0"
+    "typesync": "0.11.1"
   },
   "lint-staged": {
     "*.{js,ts,json,md}": "prettier --write"
