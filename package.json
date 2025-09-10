@@ -12,7 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "30.0.0",
-    "@types/node": "22.16.2",
+    "@types/node": "22.18.1",
     "@types/prettier": "3.0.0",
     "husky": "9.1.7",
     "jest": "30.0.4",
