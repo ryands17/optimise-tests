@@ -19,7 +19,7 @@
     "lint-staged": "16.1.6",
     "prettier": "3.6.2",
     "ts-jest": "29.4.1",
-    "typescript": "5.9.2",
+    "typescript": "5.9.3",
     "typesync": "0.14.3"
   },
   "lint-staged": {
